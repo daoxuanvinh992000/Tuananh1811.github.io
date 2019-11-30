@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body,html{
+	height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+
+}
+
+.img1,.img2,.img3{
+
+	
+	position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  /* z-index: 2; */
+  width: 100%;
+  /* height: 100%; */
+   background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;
+
+}
+.img1{
+	background-image:url('https://imgur.com/t89z3sO.jpg');
+	min-height: 100%;
+}
+.text1{
+  position:absolute;
+  top:83%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:30px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.text1 .border{
+  /* background-color:#111; */
+  color: #636e72;
+  padding:10px 60px;
+
+}
+.border:hover{
+	background-color: orange;
+	box-shadow:1px 0px 2px 2px #fff;
+	cursor: pointer;
+	transition: all .4s;
+	padding:10px 70px;
+	font-size:31px;
+
+}
+.section{
+	text-align: center;
+	padding: 50px 80px;
+
+}
+.section h2{
+	text-transform: uppercase;
+	font-weight: 400;
+	
+}
+.content1{
+
+	/* background-color:#f4f4f4; */
+  	color:#666;
+
+}
+.img2{
+
+	background-image:url('https://imgur.com/ywUkqIS.jpg');
+	min-height: 100%;
+	/* position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  /* z-index: 2; */
+  width: 100%;
+  /* height: 100%; */
+   background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover; */
+
+}
+.text2{
+  position:absolute;
+  top:93%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.content2{
+	 background-color:#282e34;
+  color:#ddd;
+  opacity: .8;
+
+}
+.img3{
+	background-image: url('https://imgur.com/uxQkD4O.jpg');
+	min-height: 600px;
+}
+@media(max-width:568px){
+  .img1, .img2, .img3{
+    background-attachment:scroll;
+  }
+}
+
